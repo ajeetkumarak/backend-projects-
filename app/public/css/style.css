@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(137, 148, 145);
+  font-family: sans-serif;
+}
+input {
+  border: 2px solid rgb(135, 97, 97);
+  border-radius: 5px;
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+button {
+  border: 1px;
+  margin: 20px;
+  border-radius: 5px;
+  height: 30px;
+  width: 80px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: rgb(238, 74, 74);
+  cursor: pointer;
+  outline: 2px solid rgb(130, 116, 116);
+}
+button:hover {
+  outline: 3px green;
+}
+h1 {
+  text-align: center;
+}
