@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- head.ejs -->
+    <%- include("./partials/head") %>
+
+    <title>Blogger.com</title>
+  </head>
+  <body>
+    <%- include("./partials/header") %>
+
+    <!-- write blog form -->
+    <div class="write--blog hidden" id="writeblog">
+      <form action="" class="" method="post">
+        <p>
+          Title:
+          <input
+            type="text"
+            class="blog-title"
+            placeholder="write blog title here..."
+          />
+        </p>
+        <p class="written-by">
+          Your:
+          <input type="text" class="" placeholder="Name & location" />
+        </p>
+        <br />
+
+        <textarea
+          name=""
+          id=""
+          cols="70"
+          rows="10"
+          class="blog-content"
+          placeholder="write blog content here...."
+        ></textarea>
+        <br />
+        <button name="" class="">Submit Blog</button>
+      </form>
+    </div>
+    <main>
+      <section class="yellow">
+        <div class="container">
+          <h1>Choose the perfect design</h1>
+          <p>
+            Create a beautiful blog that fits your style. Choose from a
+            selection of easy-to-use templates – all with flexible layouts and
+            hundreds of background images – or design something new.
+          </p>
+
+          <div class="image-yellow">
+            <img class="image-1" src="../images/image1.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="domain">
+        <div class="container">
+          <h1>Get a domain</h1>
+          <p>
+            Give your blog the perfect home. Get a blogspot.com domain or buy a
+            custom domain with just a few clicks.
+          </p>
+          <div class="image-domain">
+            <img class="image-2" src="../images/image2.1.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="earn-money">
+        <div class="container">
+          <h1>Earn money</h1>
+          <p>
+            Get paid for your hard work. Google AdSense can automatically
+            display relevant targeted ads on your blog so that you can earn
+            income by posting about your passion.
+          </p>
+          <div class="image-earn">
+            <img class="image-3" src="../images/image3.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="audience">
+        <div class="container">
+          <h1>Know your audience</h1>
+          <p>
+            Find out which posts are a hit with Blogger’s built-in analytics.
+            You’ll see where your audience is coming from and what they’re
+            interested in. You can even connect your blog directly to Google
+            Analytics for a more detailed look.
+          </p>
+          <div class="image-audience">
+            <div class="">
+              <img class="image-4 map" src="../images/image4.png" alt="" />
+            </div>
+            <div class="">
+              <img class="image-4 piechart" src="../images/graph.png" alt="" />
+            </div>
+            <div class="">
+              <img class="image-4 graph" src="../images/image5.1.png" alt="" />
+            </div>
+            <div class="">
+              <img
+                class="image-4 rect-chart"
+                src="../images/graph1.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="memories">
+        <div class="container">
+          <h1>Hang onto your memories</h1>
+          <p>
+            Save the moments that matter. Blogger lets you safely store
+            thousands of posts, photos, and more with Google.
+          </p>
+          <div class="image-memories">
+            <div class="">
+              <img class="camera" src="../images/red1.png" alt="" />
+            </div>
+            <div class="">
+              <img class="photos" src="../images/red2.png" alt="" />
+            </div>
+            <div class="">
+              <img class="paper" src="../images/red3.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="users">
+        <div class="">
+          <img class="background" src="../images/removebg.png" alt="" />
+          <div class="container">
+            <h1>Join millions of others</h1>
+            <p>
+              Whether sharing your expertise, breaking news, or whatever’s on
+              your mind, you’re in good company on Blogger. Sign up to discover
+              why millions of people have published their passions here.
+            </p>
+            <button class="create">CREATE YOUR BLOG</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer.ejs -->
+    <%- include("./partials/footer") %>
+  </body>
+</html>
